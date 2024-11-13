@@ -8,11 +8,11 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
+}
 
-  h2 {
-    color: white;
-    font-size: 24px;
-  }
+.notfounded h2 {
+  color: white;
+  font-size: 24px;
 }
 
 .createTaskBtn {
@@ -35,11 +35,13 @@
   flex-direction: column;
   gap: 10px;
 
-  h2 {
-    font-size: 24px;
-    color: #565957;
-    width: 100%;
-  }
+
+}
+
+.tasksHeader h2 {
+  font-size: 24px;
+  color: #565957;
+  width: 100%;
 }
 .mainBtn {
   width: 150px;
@@ -408,7 +410,6 @@
     width: 100%;
   }
 }
-
 
 .editForm {
   display: flex;

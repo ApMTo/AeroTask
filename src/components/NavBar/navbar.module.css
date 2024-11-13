@@ -35,14 +35,14 @@
   gap: 30px;
   align-items: center;
   color: white;
+}
 
-  a {
-    transition: 0.4s;
+.navigation a {
+  transition: 0.4s;
+}
 
-    &:hover {
-      color: rgb(46, 204, 113);
-    }
-  }
+.navigation a:hover {
+  color: rgb(46, 204, 113);
 }
 
 .burgerMenu {
