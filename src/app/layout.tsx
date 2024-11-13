@@ -26,7 +26,7 @@ export const acme = Acme({
   subsets: ["latin"],
 });
 
-export default function RootLayout({
+export function RootLayout({
   children,
 }: {
   children: React.ReactNode;
