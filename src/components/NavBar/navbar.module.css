@@ -24,10 +24,10 @@
 .logo {
   color: white;
   font-size: 24px;
+}
 
-  span {
-    color: rgb(46, 204, 113);
-  }
+.logo span {
+  color: rgb(46, 204, 113);
 }
 
 .navigation {
