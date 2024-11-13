@@ -2,7 +2,7 @@
 
 import React, { FormEvent } from "react";
 import styles from "./add.module.css";
-import { acme } from "@/app/layout";
+import { acme } from "@/app/fonts";
 import { NewTask } from "@/utils/tasksHelper";
 import { useDispatch } from "react-redux";
 import { useRouter } from "next/navigation";
