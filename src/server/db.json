@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": "1731244520525",
+      "email": "edosargsyan891@gmail.com",
+      "username": "apmto",
+      "password": "Edosap12",
+      "profileImage": "",
+      "tasks": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1731271108379",
+      "userId": "1731244520525",
+      "title": "task2",
+      "task": "tas",
+      "status": "Completed",
+      "isCompleted": true,
+      "priority": "Low",
+      "isEdited": false
+    },
+    {
+      "id": "1731402944710",
+      "userId": "1731244520525",
+      "title": "asf",
+      "task": "asfsaf",
+      "status": "Completed",
+      "isCompleted": true,
+      "priority": "Low",
+      "isEdited": false
+    },
+    {
+      "id": "1731404449151",
+      "userId": "1731244520525",
+      "title": "sdg",
+      "task": "dsgdsg",
+      "status": "Pending",
+      "isCompleted": false,
+      "priority": "High",
+      "isEdited": false
+    }
+  ],
+  "sessions": [
+    {
+      "id": "1731243309901",
+      "token": "3a986fc1-0541-4158-b7f2-ec9ed2ed6784"
+    },
+    {
+      "id": "1731244520525",
+      "token": "c250ebab-2429-4000-862b-05b57b1067d1"
+    }
+  ]
+}
