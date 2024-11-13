@@ -8,7 +8,7 @@ import {
   updateUserTask,
 } from "@/store/slices/tasks/tasksSlice";
 import styles from "./task.module.css";
-import { acme } from "@/app/layout";
+import { acme } from "@/app/fonts";
 import Link from "next/link";
 import { TaskExample } from "@/store/store";
 import { deleteTaskFetch, updateTaskFetch } from "@/app/taskManager/tasks";

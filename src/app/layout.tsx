@@ -21,12 +21,9 @@ const geistMono = localFont({
 
 
 
-export const acme = Acme({
-  weight: ["400"],
-  subsets: ["latin"],
-});
 
-export function RootLayout({
+
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;

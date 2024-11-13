@@ -4,7 +4,7 @@ import React, { FC, useEffect, useState } from "react";
 import style from "./navbar.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import { acme } from "@/app/layout";
+import { acme } from "@/app/fonts";
 
 const Navbar: FC = () => {
   const [isResized, setIsResized] = useState<Boolean>(false);
