@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "1731920353796",
+      "email": "admin@AeroTask.com",
+      "username": "apmto",
+      "password": "admin1"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1731920401388",
+      "userId": "1731920353796",
+      "title": "Task Ex",
+      "task": "Admin",
+      "status": "Pending",
+      "isCompleted": false,
+      "priority": "High",
+      "isEdited": false
+    }
+  ],
+  "sessions": [
+    {
+      "id": "1731920353796",
+      "token": "45a99612-12c4-4166-88c2-cbe4cb19c61e"
+    }
+  ]
+}

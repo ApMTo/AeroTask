@@ -1,0 +1,99 @@
+.addTaskPage {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #181818;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.addTaskContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    max-width: 450px;
+    width: 90%;
+    color: white;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: slideUp 0.6s ease forwards;
+}
+
+.title {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 500;
+    animation: fadeInText 0.8s ease-in-out;
+}
+
+.input, .select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    background-color: #2e2e2e;
+    color: #ffffff;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    resize: none;
+}
+
+.input::placeholder, .select::placeholder {
+    color: #b0b0b0;
+}
+
+.input:hover, .select:hover {
+    background-color: #383838;
+}
+
+.submitButton {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2ecc71;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submitButton:hover {
+    background-color: #28a960;
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 15px rgba(40, 169, 96, 0.2);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInText {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+.goBack {
+    align-self: flex-end;
+}
+
+.goBack span {
+    cursor: pointer;
+    font-size: 20px;
+}
