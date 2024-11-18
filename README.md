@@ -19,12 +19,12 @@ This is my pet project built with **Next.js** and **TypeScript**. It allows user
 - **UUID**: Used for generating unique IDs for tasks.
 - **RTK (Redux Toolkit)**: A library for state management.
 - **just-debounce-id**: A utility for debouncing input changes, improving performance.
-- **CSS/SCSS**: For styling the user interface.
+- **CSS Modules**: For styling the user interface.
 - **JSON Server**: For handling backend data storage during development.
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/task-manager.git
+   git clone https://github.com/ApMTo/AeroTask.git
    ```
