@@ -118,7 +118,7 @@ const Page = () => {
                   setCurrentWarning({ isClicked: false, title: "", name: "" })
                 }
               >
-                Cancle
+                Cancel
               </button>
             </div>
           </div>
